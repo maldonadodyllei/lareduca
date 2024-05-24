@@ -1,18 +1,19 @@
-Clone en el repositori 'https://github.com/AlbertB2/Laraeduca.git'
+Clone en el repositori 'https://github.com/maldonadodyllei/lareduca.git'
 
-Canviar el archiu .env, canviar el DB_DATABASE per triar la base de dades que vols
+Habria que cambiar el archivo .env, ademas de cambiar el DB_DATABASE para elegir la base de datos que quieres
 
-Instalar composer amb la comanda composer install
+Instalar composer con el comando 
+-> composer install
 
-Fes les dues seguents comandes
-npm i
-npm run dev
+A continuación hay que ejecutar los siguientes dos comandos:
+-> npm i
+-> npm run dev
 
-Fer la comanda per executar les migracion 'php artisan migrate'
+Ahora, para poder ejecutar las migraciones hay que ejecutar el siguiente comando
+-> php artisan migrate
 
-Pot ser que surti missatge conforme l'aplicacio esta en produccio, dir que si i continuar
+Seguramente aparezca un mensaje conforme la apliación está en producción, lo que hay que responder que 'si' y continuar
 
-A partir d'aqui ja esta tot operatiu. Fer register amb un usuari Teacher.
+A partir de aquí ya está todo operativo. Registrarse con un usuario 'Teacher'
 
-s'ha de crear primer de tot un department a 
-admin per tal de crear cursos i seguidament assignar els alumnes
+Primero de todo hay que crear un departamento en 'admin' para poder crear cursos y seguidamente asignar los alumnos
